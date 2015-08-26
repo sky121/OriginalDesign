@@ -5,7 +5,7 @@ int bg = 150;
 void setup()
 {
 
-	size(800,600);
+	size(600,600);
 	background(155, 0, 50);
 }
 void draw()
