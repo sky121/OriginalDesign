@@ -1,5 +1,5 @@
 float sise = 50;
-float size2 = 10;
+float sise2 = 10;
 int bg = 150;
 
 void setup()
@@ -17,8 +17,8 @@ void draw()
 
 background(10, 150, 0);
 	ellipse(mouseX,mouseY,sise,sise);
-	ellipse(mouseX-10,mouseY-10,size2,size2);
-	ellipse(mouseX+10,mouseY-10,size2,size2);
+	ellipse(mouseX-10,mouseY-10,sise2,sise2);
+	ellipse(mouseX+10,mouseY-10,sise2,sise2);
 
 	beginShape();
 	curveVertex(mouseX-20, mouseY);
