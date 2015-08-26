@@ -4,7 +4,6 @@ int bg = 150;
 
 void setup()
 {
-
 	size(200,200);
 	background(155, 0, 50);
 }
