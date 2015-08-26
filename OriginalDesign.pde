@@ -1,6 +1,4 @@
-int size = 50;
-int size2 = 10;
-int bg = 150;
+
 
 void setup()
 {
@@ -8,6 +6,9 @@ void setup()
 	ellipse(10,20,40,40);
 //background(155, 0, 50);
 }
+int size = 50;
+int size2 = 10;
+int bg = 150;
 void draw()
 {
 
