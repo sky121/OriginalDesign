@@ -5,7 +5,7 @@ int bg = 150;
 void setup()
 {
 
-	size(1000,800);
+	size(800,600);
 	background(155, 0, 50);
 }
 void draw()
@@ -33,7 +33,7 @@ background(10, 150, 0);
 
 }
 
-void mousePressed(){
+void mouseMoved(){
 		background(10, 0, 150);
 	ellipse(mouseX,mouseY,200,200);
 	ellipse(mouseX-40,mouseY-30,50,50);

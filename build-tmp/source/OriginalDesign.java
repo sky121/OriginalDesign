@@ -21,7 +21,7 @@ int bg = 150;
 public void setup()
 {
 
-	size(1000,800);
+	size(800,600);
 	background(155, 0, 50);
 }
 public void draw()
@@ -49,7 +49,7 @@ background(10, 150, 0);
 
 }
 
-public void mousePressed(){
+public void mouseMoved(){
 		background(10, 0, 150);
 	ellipse(mouseX,mouseY,200,200);
 	ellipse(mouseX-40,mouseY-30,50,50);
