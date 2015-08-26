@@ -1,19 +1,22 @@
-
+float sise = 50;
+float size2 = 10;
+int bg = 150;
 
 void setup()
 {
+
 	size(500,500);
-	ellipse(10,20,40,40);
-//background(155, 0, 50);
+	background(155, 0, 50);
 }
-int size = 50;
-int size2 = 10;
-int bg = 150;
+void mouseClicked(){
+	fill((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
+}
+
 void draw()
 {
 
 background(10, 150, 0);
-	ellipse(mouseX,mouseY,size,size);
+	ellipse(mouseX,mouseY,sise,sise);
 	ellipse(mouseX-10,mouseY-10,size2,size2);
 	ellipse(mouseX+10,mouseY-10,size2,size2);
 
