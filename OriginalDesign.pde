@@ -6,7 +6,7 @@ void setup()
 {
 	size(500,500);
 	ellipse(10,20,40,40);
-	background(155, 0, 50);
+//background(155, 0, 50);
 }
 void draw()
 {
