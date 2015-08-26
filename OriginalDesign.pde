@@ -1,5 +1,5 @@
-float size = 50;
-float size2 = 10;
+int size = 50;
+int size2 = 10;
 int bg = 150;
 
 void setup()
